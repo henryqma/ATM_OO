@@ -9,17 +9,18 @@ with open(usersDirectory) as userfile:
 lg = UserController(userList, usersDirectory)
 
 def log():
-    
+       
     TelaLogin()
     x = input()
-    if x == '1':
-
+        
+    if x == '1': # Login
+                
         cpf = input("Insira o seu CPF: ")
         senha = input("Insira a sua senha: ")
         return lg.login(cpf, senha)
-
-    elif x == '2':
             
+    elif x == '2': # Registro
+                
         nome = input("Insira seu nome: \n")
         cpf = input("Insira seu CPF: \n")
         senha = input("Insira sua senha: \n")
@@ -28,6 +29,7 @@ def log():
         return log()
 
     else:
+                
         print("Opção Inválida")
         return log()
 

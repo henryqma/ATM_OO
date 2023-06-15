@@ -1,6 +1,7 @@
 class Tela:
 
     def __init__(self):
+       
         print("---------------------------")
         print("Escolha uma opção:\n")
         print("1 - Verificar extrato")

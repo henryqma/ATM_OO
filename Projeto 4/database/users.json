@@ -1,29 +1,50 @@
 [
      {
-          "nome": "Joao",
-          "senha": "1234",
-          "cpf": "1234",
+          "nome": "Henrique",
+          "senha": "123456",
+          "cpf": "08172052170",
           "conta": {
                "id": 1001,
-               "saldo": 1550.0
+               "saldo": 5500.0,
+               "credito": 0.0,
+               "valorP": 0,
+               "valorN": 0
           }
      },
      {
           "nome": "Maria",
-          "senha": "321",
-          "cpf": "3333",
+          "senha": "123456",
+          "cpf": "89293591081",
           "conta": {
                "id": 1002,
-               "saldo": 1000.0
+               "saldo": 5000.0,
+               "credito": 5000.0,
+               "valorP": 0.0,
+               "valorN": 0.0
           }
      },
      {
-          "nome": "Pedro",
-          "senha": "4321",
-          "cpf": "222",
+          "nome": "Joao",
+          "senha": "123456",
+          "cpf": "63438328070",
           "conta": {
                "id": 1003,
-               "saldo": 0
+               "saldo": 0.0,
+               "credito": 0.0,
+               "valorP": 1500.0,
+               "valorN": 3000.0
+          }
+     },
+     {
+          "nome": "Ana",
+          "senha": "123456",
+          "cpf": "28872526078",
+          "conta": {
+               "id": 1004,
+               "saldo": 0.0,
+               "credito": 0.0,
+               "valorP": 0.0,
+               "valorN": 0.0
           }
      }
 ]
