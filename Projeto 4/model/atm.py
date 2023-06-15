@@ -26,3 +26,11 @@ class User:
         self.senha = senha
         self.cpf = cpf
         self.conta = conta
+
+class Gerente:
+
+    def __init__(self, nome, senha, cpf):
+
+        self.nome = nome
+        self.senha = senha
+        self.cpf = senha

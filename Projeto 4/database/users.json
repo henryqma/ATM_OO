@@ -5,10 +5,10 @@
           "cpf": "08172052170",
           "conta": {
                "id": 1001,
-               "saldo": 5500.0,
+               "saldo": 2000.0,
                "credito": 0.0,
-               "valorP": 0,
-               "valorN": 0
+               "valorP": 0.0,
+               "valorN": 0.0
           }
      },
      {
